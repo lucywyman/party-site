@@ -1,8 +1,5 @@
 body {
-  background-image: url("../images/tacos.jpg");
-  background-repeat: repeat;
-  font-family: Georgia, serif;
-  margin-top: 10vh;
+  margin: 0;
 }
 
 .container-fluid {
@@ -10,12 +7,12 @@ body {
 }
 
 .top-bar h2 {
-  font-size: 8vh;
+  font-size: 6rem;
   padding: 10px;
 }
 
 .top-bar h3 {
-  font-size: 2.5vh;
+  font-size: 2rem;
   padding: 0px 10px;
   padding-bottom: 10px;
 }
@@ -26,60 +23,51 @@ body {
   background: white;
   margin-right: auto;
   margin-left: auto;
-  font-family: 'Roboto Slab', serif;
+  font-family: Macondo;
   font-weight: bold;
   color: #27ACB9;
   padding: 0px;
   display: inline-block
 }
 
+.page {
+  background-image: url("https://64.media.tumblr.com/098f94da5d1cf4702b1e979eaabc26e8/tumblr_pms1cuPuGB1qho90vo1_1280.jpg");
+  background-repeat: repeat;
+}
+
 .container {
-  display: flex;
-  justify-content: space-evenly;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
 }
 
-.laser-cat {
-  padding: 2vw;
-  display: block;
-  max-width: 40vw;
-  width: auto;
-  height: auto;
+.img {
+  height: 400px;
+  position: relative;
 }
 
-footer {
-  position: fixed;
-  bottom: 0
-}
-
-.copyright {
-  border: 2px solid black;
-  background: white;
-  width: 60vw;
-  margin: 0 20vw;
-  display: inline-block;
-  font-family: Arial, sans-serif;
-  padding: 10px 10vw;
-  min-width: 360px;
-}
-
-.buttons {
+.text {
+  font-size: 4rem;
+  font-family: Macondo;
+  background-color: white;
   text-align: center;
+  border-style: double;
+  margin: auto;
+  padding: 1rem;
 }
 
-.copyright button {
-  background-color: #27ACB9;
-  color: white;
-  padding: 10px;
-  margin: 0px 20px;
-  font-weight: bold;
-  border: 2px solid #17676f;
+.left {
+  float: left;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
-.copyright button:hover{
-  background-color: #17676f;
-  border: 2px solid white;
-}
-
-.copyright h4 {
-  font-weight: bold;
+.right {
+  float: right;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
