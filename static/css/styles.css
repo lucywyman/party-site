@@ -1,0 +1,54 @@
+.header,.info,.footer {
+    font-family: Macondo;
+}
+
+div.header {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+div.header,p.info,p.footer {
+    background: white;
+}
+
+h1.header {
+    font-size: 6vw;
+}
+
+h2.header {
+    font-size: 5vw;
+}
+
+h3.header {
+    font-size: 3vw;
+}
+
+div.info {
+    margin: auto;
+    height: 100%;
+    font-size: 28px;
+}
+
+p.info {
+    text-align: center;
+    border-style: solid;
+    margin: 0;
+}
+
+p.footer {
+    text-align: center;
+}
+
+div.graphic,div.header,div.footer,div.info {
+    padding: 0.5em;
+}
+
+
+.item {
+}
+
+body.page {
+    background: url("../images/dice-bg.jpg") repeat;
+}
+
