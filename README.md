@@ -1,3 +1,3 @@
-# The Voigt's Halloween party
+# lucyandeli.party
 
-A single-page static site to share information about our Halloween party, built with ♥ by @pono.
+A static site for all of our events.
